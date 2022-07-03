@@ -15,7 +15,7 @@ export const CardForm: NextPage<CardFormProps> = ({
   submit,
 }) => {
   return (
-    <div className="bg-white w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 rounded-lg drop-shadow-md mt-4">
+    <div className="bg-white w-5/6 md:w-4/6 lg:w-3/6 xl:w-2/6 rounded-lg drop-shadow-md mt-4 mx-auto">
       <div className="relative">
         <input
           className="w-full py-4 pl-3 pr-16 text-sm rounded-lg"
